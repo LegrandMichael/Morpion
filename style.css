@@ -1,0 +1,36 @@
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+[class*="col-"] {
+  background-color: lightgreen;
+  border: 2px solid black;
+  height: 160px;
+  width: 160px; 
+  text-align: center;
+  font-size: 100px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
