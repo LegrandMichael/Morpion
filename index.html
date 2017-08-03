@@ -2,30 +2,45 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Document</title>
 </head>
 <body>
 	<div class="container">
+		<h1>Welcome to tic-tac-toe's game</h1>	
 		<div class="row">
-			<div class="case col-xs-4 col-sm-2"></div>
-			<div class="case col-xs-4 col-sm-2"></div>
-			<div class="case col-xs-4 col-sm-2"></div>
+			<div id="11" class="case col-xs-4 col-sm-2"></div>
+			<div id="12" class="case col-xs-4 col-sm-2"></div>
+			<div id="13" class="case col-xs-4 col-sm-2"></div>
 		</div>
 		<div class="row">
-			<div class="case col-xs-4 col-sm-2"></div>
-			<div class="case col-xs-4 col-sm-2"></div>
-			<div class="case col-xs-4 col-sm-2"></div>
+			<div id="21" class="case col-xs-4 col-sm-2"></div>
+			<div id="22" class="case col-xs-4 col-sm-2"></div>
+			<div id="23" class="case col-xs-4 col-sm-2"></div>
 		</div>
 		<div class="row">
-			<div class="case col-xs-4 col-sm-2"></div>
-			<div class="case col-xs-4 col-sm-2"></div>
-			<div class="case col-xs-4 col-sm-2"></div>
+			<div id="31" class="case col-xs-4 col-sm-2"></div>
+			<div id="32" class="case col-xs-4 col-sm-2"></div>
+			<div id="33" class="case col-xs-4 col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-2 col-xs-offset-2">
+				<button id="reset" type="button" class="btn btn-danger">Reset</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="P1 col-xs-12">Player 1</div>
+			<div class="scp1 col-xs-12">Score :</div>
+		</div>
+		<div class="row">
+			<div class="P2 col-xs-12">Player 2</div>
+			<div class="scp2 col-xs-12">Score :</div>
 		</div>		
 	</div>
 	<script src="node_modules/jquery/dist/jquery.js""></script>
 	<script src="app.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.js""></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js""></script>	
 </body>
 </html>
