@@ -10,14 +10,29 @@ body {
 }
 
 
-[class*="col-"] {
-  background-color: lightgreen;
+.col-xs-4, .col-sm-2  {
   border: 2px solid black;
   height: 160px;
   width: 160px; 
   text-align: center;
   font-size: 100px;
 }
+
+
+.col-xs-2 {
+  height: 160px;
+  width: 160px; 
+  text-align: center;
+  font-size: 100px;
+}
+
+.P1, .P2, .scp1, .scp2 {
+  height: 160px;
+  width: 160px; 
+  text-align: center;
+}
+
+
 
 @media (min-width: 768px) {
   .container {
@@ -34,3 +49,4 @@ body {
     width: 1170px;
   }
 }
+
