@@ -87,7 +87,7 @@ $(document).ready(function(){
 		if ($("#11").children().hasClass('x') && $("#21").children().hasClass("x") && $("#31").children().hasClass("x")) {
 			alert("Player 2 win");
 		}
-		// end col 1
+		// End col 1
 
 		// Col 2 
 		if ($("#12").children().hasClass('o') && $("#22").children().hasClass("o") && $("#32").children().hasClass("o")) {
